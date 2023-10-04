@@ -13,7 +13,7 @@
         "format": "prettier --write .",
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build",
-        "predeploy": "npm run build build-storybook",
+        "predeploy": "npm run build-storybook",
         "deploy": "gh-pages -d storybook-static"
     },
     "keywords": [],
