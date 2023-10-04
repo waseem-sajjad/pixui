@@ -1,7 +1,8 @@
 {
     "name": "pixui",
     "version": "0.1.0",
-    "description": "",
+    "description": "Nextjs 13.x.x UI library built with Tailwindcss 3.x.x",
+    "homepage": "https://waseem-sajjad.github.io/pixui",
     "main": "lib/index.js",
     "files": [
         "lib"
@@ -11,7 +12,9 @@
         "lint": "eslint . --fix",
         "format": "prettier --write .",
         "storybook": "storybook dev -p 6006",
-        "build-storybook": "storybook build"
+        "build-storybook": "storybook build",
+        "predeploy": "pnpm build-storybook",
+        "deploy": "gh-pages -d storybook-static"
     },
     "keywords": [],
     "author": "Waseem Sajjad",
@@ -47,6 +50,7 @@
         "eslint-config-prettier": "^9.0.0",
         "eslint-plugin-react": "^7.33.2",
         "eslint-plugin-storybook": "^0.6.14",
+        "gh-pages": "^6.0.0",
         "postcss": "^8.4.31",
         "prettier": "^3.0.3",
         "prettier-plugin-tailwindcss": "^0.5.5",
