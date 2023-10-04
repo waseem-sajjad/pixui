@@ -1,0 +1,7 @@
+**/lib/**
+**/*.js
+**/*.mjs
+**/.pnpm/**
+**/node_modules/**
+**/.git/**
+**/.vscode/**

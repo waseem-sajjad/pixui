@@ -1,0 +1,37 @@
+{
+    "name": "pixui",
+    "version": "0.1.0",
+    "description": "",
+    "main": "lib/index.js",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "build": "rm -rf lib && node esbuild.mjs && tsc",
+        "lint": "eslint . --fix",
+        "format": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "Waseem Sajjad",
+    "license": "ISC",
+    "peerDependencies": {
+        "react": ">=18.2.0",
+        "react-dom": ">=18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.24",
+        "@types/react-dom": "^18.2.8",
+        "@typescript-eslint/eslint-plugin": "^6.7.4",
+        "eslint-config-prettier": "^9.0.0",
+        "@typescript-eslint/parser": "^6.7.4",
+        "esbuild": "^0.19.4",
+        "esbuild-node-externals": "^1.9.0",
+        "eslint": "^8.50.0",
+        "eslint-plugin-react": "^7.33.2",
+        "prettier": "^3.0.3",
+        "prettier-plugin-tailwindcss": "^0.5.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^5.2.2"
+    }
+}
