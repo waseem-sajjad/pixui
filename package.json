@@ -60,6 +60,7 @@
     "dependencies": {
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.0.0",
+        "react-icons": "^4.11.0",
         "tailwind-merge": "^1.14.0"
     }
 }

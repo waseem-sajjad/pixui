@@ -4,6 +4,8 @@ export interface PluginOptions {
     theme: {
         colors: {
             primary: string;
+            tint: string;
+            hover: string;
         };
     };
 }
@@ -11,7 +13,9 @@ export interface PluginOptions {
 export const defaultOptions: PluginOptions = {
     theme: {
         colors: {
-            primary: '#0CAAAB',
+            primary: '#38a3a5',
+            tint: '#d0d4e4',
+            hover: '#f5f6f8',
         },
     },
 };

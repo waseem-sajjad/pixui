@@ -1,0 +1,53 @@
+import { Meta, Primary, Controls, Story, Canvas } from '@storybook/blocks';
+
+import * as ButtonStories from './Button.stories';
+
+<Meta of={ButtonStories} />
+
+# Button
+
+<Primary />
+<Controls />
+
+## **Appearance**
+
+<Canvas>
+
+    <Story of={ButtonStories} name='Primary' />
+    <Story of={ButtonStories} name='Danger' />
+    <Story of={ButtonStories} name='Ghost' />
+    <Story of={ButtonStories} name='Link' />
+
+</Canvas>
+
+## **Rounded**
+
+<Canvas>
+
+    <Story of={ButtonStories} name='Rounded - Default' />
+    <Story of={ButtonStories} name='Rounded - None' />
+    <Story of={ButtonStories} name='Rounded - Small' />
+    <Story of={ButtonStories} name='Rounded - Medium' />
+    <Story of={ButtonStories} name='Rounded - Large' />
+    <Story of={ButtonStories} name='Rounded - Full' />
+
+</Canvas>
+
+## **Size**
+
+<Canvas>
+
+    <Story of={ButtonStories} name='Size - Large' />
+    <Story of={ButtonStories} name='Size - Medium' />
+    <Story of={ButtonStories} name='Size - Default' />
+    <Story of={ButtonStories} name='Size - Small' />
+
+</Canvas>
+
+## **Loader State**
+
+<Canvas>
+
+    <Story of={ButtonStories} name='Loader - Default' />
+
+</Canvas>
