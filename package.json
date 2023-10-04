@@ -12,8 +12,8 @@
         "lint": "eslint . --fix",
         "format": "prettier --write .",
         "storybook": "storybook dev -p 6006",
-        "build-storybook": "storybook build",
-        "deploy-storybook": "gh-pages -d docs"
+        "build-storybook": "storybook build -o docs && touch docs/.nojekyll",
+        "deploy-storybook": "gh-pages -d docs -t true"
     },
     "keywords": [],
     "author": "Waseem Sajjad",
